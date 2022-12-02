@@ -10,3 +10,31 @@
 </head>
 <body>
     
+<header>
+
+    <div class="wrapper">
+
+        <div class="wrapper-left" style="width: 20vw">
+            <a href="index.php"><img src="Pictures/icons8-lighter-100.png" alt="Icône Briquet"></a>
+        </div>
+
+        <div class="wrapper-h1">
+            <h1><?php echo $h1 ?></h1>
+        </div>
+
+        <div class="wrapper-right" style="width: 20vw">
+            <form class="d-flex" role="search" action="recherche.php">
+                <input class="form-control me-2" type="search" placeholder="Rechercher un briquet" aria-label="Search" name="search" required>
+                <button type="submit" class="btn btn-outline-success"
+                        onmouseover="this.style.background='rgba(0,131,205,.8)'"
+                        onmouseout="this.style.background='var(--third-color)'"
+                        style="border-color: var(--third-color); color: var(--primary-color); background: var(--third-color);">
+                        <img src="Pictures/loupe.png" alt="Loupe"></button>
+            </form>
+        </div>
+
+    </div>
+
+</header>
+
+<div class="container">
