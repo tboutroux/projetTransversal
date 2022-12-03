@@ -28,5 +28,4 @@
 
     </div>
 </header>
-
-<div class="container">
+<div class="content">
