@@ -1,27 +1,24 @@
-@font-face{
-    font-family: "Edwardian Script ITC";
-    src: url(Font/ITCEDSCR.TTF) format(truetype);
-}
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 :root{
-    --primary-color : white;
+    --primary-color: white;
     --second-color: black;
     --third-color: #E0AA3E;
 }
 
 header{
     background-color: var(--second-color);
-    height: 20vh;
+    height: 14vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     border-bottom: solid 1vh var(--third-color);
 }
 
 h1{
     color: var(--third-color);
-    font-size: 7em;
-    font-family: "Edwardian Script ITC", cursive;
+    font-size: 3em;
+    font-family: "Great Vibes", cursive;
 }
 
 .wrapper{
@@ -33,9 +30,8 @@ h1{
 
 .wrapper-left, .wrapper-right{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    margin-left: 3vw;
 }
 
 .wrapper-h1{
@@ -46,5 +42,5 @@ h1{
 }
 
 .wrapper-img{
-    height: 12vh;
+    width: 100%;
 }
