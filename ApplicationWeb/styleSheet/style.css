@@ -8,6 +8,9 @@
     --primary-color : white;
     --second-color: black;
     --third-color: #E0AA3E;
+    --fourth-color: #0F636E;
+    --fivth-color: #2F4858;
+    --sixth-color: #F0F0F0;
 }
 
 header{
@@ -48,6 +51,32 @@ h1{
 
 .wrapper-img{
     height: 12vh;
+}
+
+
+.back-button{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5vh 3vw 3vw 0;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-color);
+    border: solid 3px var(--third-color);
+    color: var(--primary-color);
+    font-size: 4em;
+    height: 7vh;
+    border-radius: 7px;
+}
+
+.button img{
+    width: 30%;
 }
 
 .card{
@@ -108,4 +137,73 @@ a{
 .content{
     width: 80vw;
     margin: 0 auto;
+}
+
+/* Bouton pour la vitrine */
+
+.insert-bijou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.insert-bijou-card{
+    background-color: var(--sixth-color);
+    border: solid 5px var(--fourth-color);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
+
+.insert-bijou-card-body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--second-color);
+    margin: .5vh;
+}
+
+/* Carte pour vitrine */
+
+.div-tmp{
+    width: 17vw;
+    height: 20vh;
+    background-color: grey;
+}
+
+#vitrine-card{
+    background-color: var(--sixth-color);
+    border: solid 8px var(--fourth-color);
+}
+
+.vitrine-card-body{
+    margin: 2vh auto 2vh;
+}
+
+.card-body-content{
+    margin: 3vh 0 0 0;
+}
+
+.card-body-content h2{
+    font-family: 'Edwardian Script ITC';
+    font-weight: bold;
+}
+
+.card-body-content p:nth-child(2){
+    font-size: 1.2em;
+}
+
+.vitrine-card-button{
+    text-decoration: none;
+    border: solid 4px var(--fivth-color);
+    background-color: var(--fourth-color);
+    color: var(--primary-color);
+    border-radius: 7px;
+    padding: 1vh 1vw 1vh;
+    text-align: center;
+}
+
+.vitrine-card-button:hover{
+    background-color: var(--primary-color);
+    color: var(--second-color);
 }

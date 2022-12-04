@@ -5,7 +5,7 @@ include 'phpFiles/header.php';
 ?>
 
 <div class="card-container">
-    <a href="liste.php">
+    <a href="services.php">
         <div class="card" style="width: 23.5vw; height: 51vh">
             <div class="card-body">
                 <h1>Services</h1>
@@ -21,7 +21,7 @@ include 'phpFiles/header.php';
             </div>
         </div>
     </a>
-    <a href="ajouter_briquet.php">
+    <a href="vitrinePro.php">
         <div class="card" style="width: 23.5vw; height: 51vh">
             <div class="card-body">
                 <h1>Vitrine</h1>
@@ -32,7 +32,7 @@ include 'phpFiles/header.php';
 </div>
 
 <div class="card-container-bottom">
-    <a href="ajouter_briquet.php">
+    <a href="other.php">
         <div class="bottom-card">
             <div class="card-body">
                 <h1>Autres</h1>
