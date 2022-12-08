@@ -13,7 +13,7 @@ include 'phpFiles/header.php';
 </div>
 
 <div class="card-container">
-    <a href="liste.php">
+    <a href="otherFiles/clients.php">
         <div class="card" style="width: 23.5vw; height: 51vh">
             <div class="card-body">
                 <h1>Clients</h1>
@@ -21,10 +21,10 @@ include 'phpFiles/header.php';
             </div>
         </div>
     </a>
-    <a href="ajouter_briquet.php">
+    <a href="otherFiles/matieres.php">
         <div class="card" style="width: 23.5vw; height: 51vh">
             <div class="card-body">
-                <h1>Matériaux</h1>
+                <h1>Matières</h1>
                 <p class="card-text">Créez et consultez la liste des matériaux</p>
             </div>
         </div>
