@@ -17,7 +17,7 @@
     <div class="wrapper">
 
         <div class="wrapper-left" style="width: 20vw">
-            <a href="/projetTransversal/ApplicationWeb/index.php"><img src="pictures/logo-chimere.svg" alt="Logo Chimère" class="wrapper-img"></a>
+            <a href="/projetTransversal/ApplicationWeb/index.php"><img src="/projetTransversal/ApplicationWeb/pictures/logo-chimere.svg" alt="Logo Chimère" class="wrapper-img"></a>
         </div>
 
         <div class="wrapper-h1">

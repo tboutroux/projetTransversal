@@ -12,20 +12,11 @@ include '../phpFiles/header.php';
     </a>
 </div>
 
-<div class="card-container">
-    <a href="historiqueFiles/avancee.php">
-        <div class="card" style="width: 23.5vw; height: 51vh">
-            <div class="card-body">
-                <h1>Avancée</h1>
-                <p class="card-text">Consultez l’avancée générale et par corps de métier</p>
-            </div>
-        </div>
-    </a>
-    <a href="ajouter_briquet.php">
-        <div class="card" style="width: 23.5vw; height: 51vh">
-            <div class="card-body">
-                <h1>Tous les bijoux</h1>
-                <p class="card-text">Liste de tout les bijoux créés, modifiés, vendus...</p>
+<div class="insert-bijou">
+    <a href="ajouter_client.php">
+        <div class="insert-bijou-card">
+            <div class="insert-bijou-card-body">
+                <h4>Ajouter un bijou</h4>
             </div>
         </div>
     </a>

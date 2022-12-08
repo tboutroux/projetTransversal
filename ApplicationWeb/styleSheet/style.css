@@ -120,17 +120,17 @@ a{
     align-items: center;
     margin-top: 5vh;
     width: 80vw;
-    
 }
 
 .bottom-card{
     background-color: var(--second-color);
     border: solid 5px var(--third-color);
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 77vw;
+    width: 80vw;
     height: 15vh;
 }
 

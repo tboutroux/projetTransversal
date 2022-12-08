@@ -5,9 +5,9 @@ include '../phpFiles/header.php';
 ?>
 
 <div class="back-button">
-    <a href="index.php">
+    <a href="../historique.php">
         <div class="button">
-            <img src="pictures/arrow.png" alt="Bouton Retour">
+            <img src="/projetTransversal/ApplicationWeb/pictures/arrow.png" alt="Bouton Retour">
         </div>
     </a>
 </div>
@@ -16,35 +16,46 @@ include '../phpFiles/header.php';
     <a href="liste.php">
         <div class="card" style="width: 18.5vw; height: 51vh">
             <div class="card-body">
-                <h1>Avancée</h1>
-                <p class="card-text">Consultez l’avancée générale et par corps de métier</p>
+                <h1>Fondeur / Mouleur</h1>
+                <p class="card-text">Travaux en cours de moulage</p>
             </div>
         </div>
     </a>
     <a href="ajouter_briquet.php">
         <div class="card" style="width: 18.5vw; height: 51vh">
             <div class="card-body">
-                <h1>Tous les bijoux</h1>
-                <p class="card-text">Liste de tout les bijoux créés, modifiés, vendus...</p>
+                <h1>Polisseur</h1>
+                <p class="card-text">Travaux en cours de polissage</p>
             </div>
         </div>
     </a>
     <a href="ajouter_briquet.php">
         <div class="card" style="width: 18.5vw; height: 51vh">
             <div class="card-body">
-                <h1>Tous les bijoux</h1>
-                <p class="card-text">Liste de tout les bijoux créés, modifiés, vendus...</p>
+                <h1>Tailleur</h1>
+                <p class="card-text">Travaux en cours de taillage</p>
             </div>
         </div>
     </a>
     <a href="ajouter_briquet.php">
         <div class="card" style="width: 18.5vw; height: 51vh">
             <div class="card-body">
-                <h1>Tous les bijoux</h1>
-                <p class="card-text">Liste de tout les bijoux créés, modifiés, vendus...</p>
+                <h1>Sertisseur</h1>
+                <p class="card-text">Travaux en cours de sertissage</p>
             </div>
         </div>
     </a> 
+</div>
+
+<div class="card-container-bottom">
+    <a href="other.php">
+        <div class="bottom-card">
+            <div class="card-body">
+                <h1>Avancée générale</h1>
+                <p class="card-text">Tout les bijoux en cours de création ou modifications</p>
+            </div>
+        </div>
+    </a>
 </div>
 
 <?php
