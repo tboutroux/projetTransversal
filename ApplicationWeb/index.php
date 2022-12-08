@@ -13,7 +13,7 @@ include 'phpFiles/header.php';
             </div>
         </div>
     </a>
-    <a href="ajouter_briquet.php">
+    <a href="historique.php">
         <div class="card" style="width: 23.5vw; height: 51vh">
             <div class="card-body">
                 <h1>Historique</h1>

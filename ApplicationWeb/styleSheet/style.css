@@ -9,7 +9,7 @@
     --second-color: black;
     --third-color: #E0AA3E;
     --fourth-color: #0F636E;
-    --fivth-color: #2F4858;
+    --fifth-color: #2F4858;
     --sixth-color: #F0F0F0;
 }
 
@@ -195,8 +195,8 @@ a{
 
 .vitrine-card-button{
     text-decoration: none;
-    border: solid 4px var(--fivth-color);
-    background-color: var(--fourth-color);
+    border: solid 4px var(--fourth-color);
+    background-color: var(--fifth-color);
     color: var(--primary-color);
     border-radius: 7px;
     padding: 1vh 1vw 1vh;

@@ -43,7 +43,7 @@ include 'phpFiles/header.php';
                 <p class="card-text">Prix</p>
                 <br>
                 <a href="" class="vitrine-card-button">Détails</a>
-                <a href="" class="vitrine-card-button">Supprimer</a>
+                <a href="" class="vitrine-card-button">Modifier</a>
             </div>               
         </div>
     </div>
@@ -60,7 +60,7 @@ include 'phpFiles/header.php';
                 <p class="card-text">Prix</p>
                 <br>
                 <a href="" class="vitrine-card-button">Détails</a>
-                <a href="" class="vitrine-card-button">Supprimer</a>
+                <a href="" class="vitrine-card-button">Modifier</a>
             </div>               
         </div>
     </div>
@@ -77,7 +77,7 @@ include 'phpFiles/header.php';
                 <p class="card-text">Prix</p>
                 <br>
                 <a href="" class="vitrine-card-button">Détails</a>
-                <a href="" class="vitrine-card-button">Supprimer</a>
+                <a href="" class="vitrine-card-button">Modifier</a>
             </div>               
         </div>
     </div>
